@@ -1,5 +1,11 @@
 module.exports = (msg, { success, error }, cp) => {
   success({ 
-    vendorId : 'string255' 
+    status : 'Accepted'
+    /*
+  "Accepted",
+  "Rejected",
+  "UnknownMessageId",
+  "UnknownVendorId"
+    */
   });
 };
