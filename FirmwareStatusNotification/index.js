@@ -1,3 +1,7 @@
 module.exports = (msg, { success, error }, cp) => {
-  success({ status: 'Installing' });
+  success({ 
+    status: 'Installing' /*
+data here
+  */
+  });
 };
