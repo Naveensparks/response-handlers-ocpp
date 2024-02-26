@@ -1,7 +1,13 @@
 module.exports = (msg, { success, error }, cp) => {
   success({ 
-    status: 'Installing' /*
-data here
+    status: 'Installing' 
+                /*"Downloaded",
+                "DownloadFailed",
+                "Downloading",
+                "Idle",
+                "InstallationFailed",
+                "Installing",
+                "Installed"
   */
   });
 };
